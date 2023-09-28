@@ -1,0 +1,117 @@
+
+.ant-layout-header{
+    padding-inline: 30px;
+}
+.ant-layout{
+    background: #fff;
+}
+
+.svg_datasetScatter .tick text {
+    font-size: 8px;
+}
+
+
+.svg_lineChart .tick text {
+    font-size: 8px;
+}
+
+.svg_anglesChange .tick text {
+    font-size: 8px;
+}
+
+.ant-form-item {
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+.contentStyle{
+    border: solid 2px #5d5d5d;
+    border-radius: 12px;
+    padding: 8px;
+    position: absolute;
+}
+
+.header_style{
+    width: 100%;
+    color: #ffffff;
+    margin: auto auto 9px;
+    line-height: 34px;
+    background-color: #4DA4ED;
+    /*border: solid 2px #5d5d5d;*/
+    border-radius: 6px;
+    /*background-image: linear-gradient(to right, #4DA4ED , #EE54AF);*/
+
+}
+
+.system-title{
+    font-size: 1.4em;
+    margin-left: 12px;
+    font-family: "Apple SD Gothic Neo";
+    position: absolute;
+    /*left: 65px*/
+
+}
+
+
+.paper-title{
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: "Apple SD Gothic Neo";
+    float: right;
+    color: #076b91
+}
+
+.hover-line {
+    stroke-dasharray: 4 4;
+    stroke-opacity: 0.7;
+}
+
+.measure_gate:before {
+    content: url(https://upload.wikimedia.org/wikipedia/commons/6/69/How_to_use_icon.svg);
+    width: 20px;
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+
+
+.epoch{
+    /*width: 10px;*/
+    /*height: 160px;*/
+    /*border: solid 1px #000000;*/
+
+}
+
+.step-folded{
+    border: solid 1px #d4eaff;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.step-unfolded{
+    border: solid 1px #000000;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: -1000;
+    }
+}
+
+
+.path_animation {
+    stroke-dasharray: 6;
+    -webkit-animation: dash 30s linear infinite;
+}
+
+.unit{
+    cursor: pointer;
+}
